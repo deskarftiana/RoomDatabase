@@ -92,6 +92,24 @@
             android:layout_height="match_parent"
             android:layout_weight="2"/>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"/>
+        <Button
+            android:id="@+id/btnUpdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
     <View
         android:layout_margin="5dp"
         android:layout_width="match_parent"

@@ -3,6 +3,8 @@ package com.example.roomdatabase.room;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import androidx.room.Update;
+import androidx.room.Delete;
 
 @Entity
 public class Mahasiswa {
